@@ -242,21 +242,21 @@ body {
 @media (max-width: 768px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(18% + 10px); /* Ajuste fino para mejor posición */
-    font-size: 2.4rem; /* Tamaño adecuado */
+    top: calc(20% + 10px); /* Ajuste fino para mejor posición */
+    font-size: 2.5rem; /* Tamaño adecuado */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 90%; /* Flor un 25% más grande */
+    width: 100%; /* Flor al 100% del contenedor */
     height: auto;
-    transform: translateY(-20px); /* Subir 1 cm (10px) */
+    transform: translateY(-30px); /* Subir 1.5 cm (15px) */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 2.2rem; /* Tamaño adecuado para mensajes */
-    bottom: 8%; /* Espacio adecuado respecto a la flor */
+    font-size: 2.4rem; /* Tamaño adecuado para mensajes */
+    bottom: 10%; /* Espacio adecuado respecto a la flor */
   }
 }
 
@@ -264,20 +264,20 @@ body {
 @media (max-width: 480px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(18% + 10px); /* Ajuste fino para el texto */
-    font-size: 2.4rem; /* Tamaño reducido para pantallas pequeñas */
+    top: calc(22% + 10px); /* Ajuste más arriba para mejor visibilidad */
+    font-size: 2.6rem; /* Tamaño ligeramente más grande */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 120%; /* Aumentar tamaño de la flor (20% más grande que el contenedor) */
+    width: 130%; /* Aumentar tamaño de la flor (30% más grande que el contenedor) */
     height: auto;
-    transform: translateY(-1.5cm); /* Subir 1.5 cm más arriba */
+    transform: translateY(-2cm); /* Subir 2 cm más arriba */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 2rem; /* Tamaño adecuado para pantallas pequeñas */
-    bottom: 8%; /* Ajuste de espacio */
+    font-size: 2.2rem; /* Tamaño adecuado para pantallas pequeñas */
+    bottom: 8%; /* Ajuste de espacio adecuado */
   }
 }
