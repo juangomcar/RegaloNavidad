@@ -242,21 +242,21 @@ body {
 @media (max-width: 768px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(15% + 20px); /* Mantener ajuste equilibrado */
-    font-size: 2.8rem; /* Tamaño adecuado para visibilidad */
+    top: calc(18% + 10px); /* Ajuste fino para mejor posición */
+    font-size: 2.4rem; /* Tamaño adecuado */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 100%; /* Aumentar tamaño un 25% (80% * 1.25 = 100%) */
+    width: 90%; /* Flor un 25% más grande */
     height: auto;
-    transform: translateY(-1cm); /* Mover 1 cm más arriba */
+    transform: translateY(-20px); /* Subir 1 cm (10px) */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
     font-size: 2.2rem; /* Tamaño adecuado para mensajes */
-    bottom: 10%; /* Mantener separación adecuada */
+    bottom: 8%; /* Espacio adecuado respecto a la flor */
   }
 }
 
@@ -264,20 +264,20 @@ body {
 @media (max-width: 480px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(18% + 10px); /* Ajuste más fino */
-    font-size: 2.4rem; /* Tamaño reducido para pantallas pequeñas */
+    top: calc(16% + 5px); /* Ajuste más fino para pantallas pequeñas */
+    font-size: 2.2rem; /* Tamaño más pequeño para encajar mejor */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 100%; 
+    width: 95%; /* Aumentar tamaño de la flor para pantallas más pequeñas */
     height: auto;
-    transform: translateY(-3cm); /* Mover 1 cm más arriba */
+    transform: translateY(-15px); /* Subir ligeramente (1.5cm aprox) */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 2rem; /* Tamaño adecuado para pantallas pequeñas */
-    bottom: 8%; /* Ajuste de espacio */
+    font-size: 1.8rem; /* Tamaño ligeramente más pequeño */
+    bottom: 10%; /* Ajuste de espacio respecto a la flor */
   }
 }
