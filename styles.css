@@ -238,3 +238,61 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: opacity 1s ease-in-out;
 }
+/* 🌍 Ajustes generales para dispositivos móviles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reducir tamaño de fuente global */
+    overflow-x: hidden; /* Evitar el desplazamiento horizontal */
+  }
+
+  .name {
+    font-size: 2rem; /* Reducir tamaño del texto del nombre */
+    top: 10%; /* Ajustar la posición vertical */
+  }
+
+  .flower-container {
+    bottom: 10%; /* Subir la flor un poco más */
+    margin-top: 20px; /* Ajuste adicional si es necesario */
+  }
+
+  #flowerCanvas {
+    width: 80%; /* Hacer el canvas más pequeño */
+    height: auto; /* Mantener las proporciones */
+  }
+
+  .bottom-messages {
+    font-size: 1.5rem; /* Reducir tamaño de los mensajes */
+    bottom: 3%; /* Ajustar la posición */
+  }
+
+  .pixel-heart {
+    width: 15px; /* Corazones más pequeños */
+    height: 15px;
+  }
+
+  .click-heart {
+    width: 15px; /* Corazones al hacer clic más pequeños */
+    height: 15px;
+  }
+}
+
+/* 📲 Ajustes para pantallas pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+  .name {
+    font-size: 1.5rem; /* Reducir aún más el tamaño del nombre */
+    top: 8%; /* Ajustar posición */
+  }
+
+  .flower-container {
+    bottom: 15%; /* Subir la flor */
+  }
+
+  #flowerCanvas {
+    width: 90%; /* Ajustar el canvas */
+  }
+
+  .bottom-messages {
+    font-size: 1.2rem; /* Reducir tamaño de mensajes */
+    bottom: 2%;
+  }
+}
