@@ -264,20 +264,20 @@ body {
 @media (max-width: 480px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(16% + 5px); /* Ajuste más fino para pantallas pequeñas */
-    font-size: 2.2rem; /* Tamaño más pequeño para encajar mejor */
+    top: calc(18% + 10px); /* Ajuste fino para el texto */
+    font-size: 2.4rem; /* Tamaño reducido para pantallas pequeñas */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 120%; /* Aumentar tamaño de la flor para pantallas más pequeñas */
+    width: 120%; /* Aumentar tamaño de la flor (20% más grande que el contenedor) */
     height: auto;
-    transform: translateY(-15px); /* Subir ligeramente (1.5cm aprox) */
+    transform: translateY(-1.5cm); /* Subir 1.5 cm más arriba */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 1.8rem; /* Tamaño ligeramente más pequeño */
-    bottom: 10%; /* Ajuste de espacio respecto a la flor */
+    font-size: 2rem; /* Tamaño adecuado para pantallas pequeñas */
+    bottom: 8%; /* Ajuste de espacio */
   }
 }
