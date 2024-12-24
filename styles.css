@@ -246,13 +246,6 @@ body {
     font-size: 2.5rem; /* Tamaño adecuado */
   }
 
-  /* 🌻 Flor (Canvas) */
-  #flowerCanvas {
-    width: 200%; /* Flor al 100% del contenedor */
-    height: auto;
-    transform: translateY(-30px); /* Subir 1.5 cm (15px) */
-  }
-
   /* 💬 Mensajes de abajo */
   .bottom-messages {
     font-size: 2.4rem; /* Tamaño adecuado para mensajes */
@@ -273,11 +266,5 @@ body {
     width: 1000%; /* Aumentar tamaño de la flor (30% más grande que el contenedor) */
     height: auto;
     transform: translateY(-2cm); /* Subir 2 cm más arriba */
-  }
-
-  /* 💬 Mensajes de abajo */
-  .bottom-messages {
-    font-size: 2.2rem; /* Tamaño adecuado para pantallas pequeñas */
-    bottom: 8%; /* Ajuste de espacio adecuado */
   }
 }
