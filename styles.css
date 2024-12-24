@@ -248,7 +248,7 @@ body {
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 100%; /* Flor al 100% del contenedor */
+    width: 200%; /* Flor al 100% del contenedor */
     height: auto;
     transform: translateY(-30px); /* Subir 1.5 cm (15px) */
   }
@@ -270,7 +270,7 @@ body {
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 130%; /* Aumentar tamaño de la flor (30% más grande que el contenedor) */
+    width: 300%; /* Aumentar tamaño de la flor (30% más grande que el contenedor) */
     height: auto;
     transform: translateY(-2cm); /* Subir 2 cm más arriba */
   }
