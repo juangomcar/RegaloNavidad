@@ -267,4 +267,10 @@ body {
     height: auto;
     transform: translateY(-2cm); /* Subir 2 cm más arriba */
   }
+
+  /* 💬 Mensajes de abajo */
+  .bottom-messages {
+    font-size: 2.2rem; /* Tamaño adecuado para pantallas pequeñas */
+    bottom: 8%; /* Ajuste de espacio adecuado */
+  }
 }
