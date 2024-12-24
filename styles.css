@@ -238,45 +238,44 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: opacity 1s ease-in-out;
 }
-
-/* 🌍 Ajustes específicos para dispositivos móviles */
+/* 🌍 Ajustes para dispositivos móviles (hasta 768px) */
 @media (max-width: 768px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(20% + 20px); /* Ajustar para que quede en una posición óptima */
-    font-size: 2.5rem; /* Tamaño adecuado para móviles */
+    top: calc(15% + 20px); /* Ajustar para que quede más equilibrado */
+    font-size: 2.8rem; /* Ajustar el tamaño para mejor visibilidad */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 70%; /* Ajuste de tamaño para que no se vea tan pequeño */
+    width: 80%; /* Ajuste más grande pero equilibrado */
     height: auto; /* Mantener proporciones */
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 2.2rem; /* Reducir ligeramente el tamaño */
-    bottom: 8%; /* Ajustar la posición ligeramente */
+    font-size: 2.2rem; /* Ajustar tamaño para mejor visibilidad */
+    bottom: 10%; /* Ajustar la posición más arriba */
   }
 }
 
-/* 📲 Ajustes más específicos para pantallas muy pequeñas (menos de 480px) */
+/* 📲 Ajustes específicos para pantallas pequeñas (hasta 480px) */
 @media (max-width: 480px) {
   /* 📌 Nombre (Sofi) */
   .name {
-    top: calc(25% + 10px); /* Ajuste más preciso */
-    font-size: 2rem; /* Más pequeño para pantallas más chicas */
+    top: calc(18% + 10px); /* Ajuste más preciso */
+    font-size: 2.4rem; /* Ajuste para pantallas muy pequeñas */
   }
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 60%; /* Reducir un poco más en pantallas pequeñas */
+    width: 70%; /* Hacer la flor un poco más grande en móviles pequeños */
     height: auto;
   }
 
   /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 1.8rem; /* Reducir aún más el tamaño */
-    bottom: 5%;
+    font-size: 2rem; /* Tamaño de fuente adecuado para pantallas pequeñas */
+    bottom: 8%; /* Ajustar espacio desde el fondo */
   }
 }
