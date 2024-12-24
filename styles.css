@@ -238,61 +238,42 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: opacity 1s ease-in-out;
 }
-/* 🌍 Ajustes generales para dispositivos móviles */
+
+/* 🌍 Ajustes específicos para dispositivos móviles */
 @media (max-width: 768px) {
-  body {
-    font-size: 14px; /* Reducir tamaño de fuente global */
-    overflow-x: hidden; /* Evitar el desplazamiento horizontal */
-  }
-
+  /* 📌 Nombre (Sofi) */
   .name {
-    font-size: 2rem; /* Reducir tamaño del texto del nombre */
-    top: 10%; /* Ajustar la posición vertical */
+    top: calc(10% - 20px); /* Mover 2 cm (aproximadamente 20px) más arriba */
   }
 
-  .flower-container {
-    bottom: 10%; /* Subir la flor un poco más */
-    margin-top: 20px; /* Ajuste adicional si es necesario */
-  }
-
+  /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 80%; /* Hacer el canvas más pequeño */
-    height: auto; /* Mantener las proporciones */
+    width: 60%; /* Reducir tamaño de la flor un 20% */
+    height: auto; /* Mantener proporciones */
   }
 
+  /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 1.5rem; /* Reducir tamaño de los mensajes */
-    bottom: 3%; /* Ajustar la posición */
-  }
-
-  .pixel-heart {
-    width: 15px; /* Corazones más pequeños */
-    height: 15px;
-  }
-
-  .click-heart {
-    width: 15px; /* Corazones al hacer clic más pequeños */
-    height: 15px;
+    font-size: 2.375rem; /* Reducir el tamaño un 5% (2.5rem * 0.95) */
+    bottom: 5%; /* Ajuste de posición si es necesario */
   }
 }
 
-/* 📲 Ajustes para pantallas pequeñas (menos de 480px) */
+/* 📲 Ajustes más específicos para pantallas pequeñas (menos de 480px) */
 @media (max-width: 480px) {
+  /* 📌 Nombre (Sofi) */
   .name {
-    font-size: 1.5rem; /* Reducir aún más el tamaño del nombre */
-    top: 8%; /* Ajustar posición */
+    top: calc(8% - 20px); /* Mover 2 cm más arriba */
   }
 
-  .flower-container {
-    bottom: 15%; /* Subir la flor */
-  }
-
+  /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 90%; /* Ajustar el canvas */
+    width: 50%; /* Reducir aún más si es necesario */
   }
 
+  /* 💬 Mensajes de abajo */
   .bottom-messages {
-    font-size: 1.2rem; /* Reducir tamaño de mensajes */
-    bottom: 2%;
+    font-size: 2rem; /* Reducir más el tamaño si es necesario */
+    bottom: 3%;
   }
 }
