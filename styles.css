@@ -270,7 +270,7 @@ body {
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 95%; /* Aumentar tamaño de la flor para pantallas más pequeñas */
+    width: 120%; /* Aumentar tamaño de la flor para pantallas más pequeñas */
     height: auto;
     transform: translateY(-15px); /* Subir ligeramente (1.5cm aprox) */
   }
