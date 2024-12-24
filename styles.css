@@ -270,9 +270,9 @@ body {
 
   /* 🌻 Flor (Canvas) */
   #flowerCanvas {
-    width: 90%; /* Aumentar tamaño (70% * 1.25 = 90%) */
+    width: 100%; 
     height: auto;
-    transform: translateY(-1cm); /* Mover 1 cm más arriba */
+    transform: translateY(-3cm); /* Mover 1 cm más arriba */
   }
 
   /* 💬 Mensajes de abajo */
